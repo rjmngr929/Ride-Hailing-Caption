@@ -1,21 +1,25 @@
 # Ride-Hailing-Caption
 
-This is a ride-hailing Android application designed for riders to pick up and drop off customers from a source address to their destination.
+Ride-Hailing-Caption
 
-<h2>🚗 Key Features</h2>
-<ul>
+This is a ride-hailing Android application designed for riders to pick up and drop off customers from a source address to their destination. It provides real-time booking, navigation, and rider-customer interaction with smooth performance.
+
+<h2>🚗 Key Features</h2> 
+<ul> 
   <li>Real-time ride booking and tracking</li>
-  <li>Source to destination navigation</li>
-  <li>Seamless rider-customer interaction via sockets</li>
-</ul>
+  <li>Source to destination navigation using <strong>Ola Maps Navigation SDK</strong></li>
+  <li>Place search & autocomplete powered by <strong>Ola Maps Places SDK</strong></li>
+  <li>Seamless rider-customer interaction via sockets</li> 
+</ul> 
 
-<h2>🛠 Tech Stack</h2>
-<ul>
-  <li><strong>Language</strong>: Kotlin</li>
-  <li><strong>Architecture</strong>: MVVM (Model-View-ViewModel)</li>
+<h2>🛠 Tech Stack</h2> 
+<ul> 
+  <li><strong>Language</strong>: Kotlin</li> 
+  <li><strong>Architecture</strong>: MVVM (Model-View-ViewModel)</li> 
   <li><strong>Dependency Injection</strong>: Dagger-Hilt</li>
   <li><strong>Data Handling</strong>: LiveData & ViewModel</li>
-  <li><strong>Communication</strong>: Socket integration for real-time updates</li>
+  <li><strong>Communication</strong>: Socket integration for real-time updates</li> 
+  <li><strong>Navigation & Maps</strong>: Ola Maps Navigation SDK, Ola Maps Places SDK</li>
 </ul>
 
  <h5 class="mb-3">Project Images :</h5>
